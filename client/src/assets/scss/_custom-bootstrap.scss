@@ -1,0 +1,29 @@
+/*! `Custom` Bootstrap 4 theme */
+@import url(https://cdn.linearicons.com/free/1.0.0/icon-font.min.css);
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,700);
+$font-family-base:Muli;
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:200,300,400,700);
+$headings-font-family:PT Sans;
+
+$enable-grid-classes:false;
+$primary:#563d7c;
+$secondary:#868e96;
+$success:#28a745;
+$danger:#dc3545;
+$info:#17a2b8;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#343434;
+$enable-gradients:true;
+$spacer:1.2rem;
+$border-width:1px;
+$btn-border-radius:0;
+$enable-shadows:true;
+
+/*! Import Bootstrap 4 variables */
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+// Add SASS theme customizations here..
+
+$font-size-lg:($font-size-base * 1.25);
