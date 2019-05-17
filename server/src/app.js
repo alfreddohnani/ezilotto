@@ -1,24 +1,24 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const morgan = require('morgan');
-const config = require('./config/config');
+const express = require('express')
+const bodyParser = require('body-parser')
+const cors = require('cors')
+const morgan = require('morgan')
+const config = require('./config/config')
 
-const app = express();
+const app = express()
 
 // DB Connection
-require('./database/connection');
+require('./database/connection')
 
-app.use(bodyParser.json());
-app.use(cors());
-app.use(morgan('combined'));
+app.use(bodyParser.json())
+app.use(cors())
+app.use(morgan('combined'))
 
-//ROUTES
+// ROUTES
 
-//User
-require('./routes/user')(app);
-
+// User
+require('./routes/user')(app)
 
 app.listen(config.port, (err) => {
-    console.log(`Server started successfully on ${config.port}`);
-});
+  console.log(`Server started successfully on ${config.port}`)
+  if (err) console.log(err)
+})

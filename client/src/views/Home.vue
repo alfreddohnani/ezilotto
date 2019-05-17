@@ -590,12 +590,6 @@ export default {
 
 
 <style lang="scss" scoped>
-  
-.card {
-    border:none;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    margin-bottom: 1rem;
-}
 
 a{
     text-decoration: none !important;
@@ -642,18 +636,7 @@ a{
     color:#fff;
 }
 
-.section-title {
-    font-weight: 300;
-    font-size: 2.5rem;
-    color: transparent;
-    background-image: linear-gradient(to right, #363795, #005C97);
-    -webkit-background-clip: text;
-    margin-bottom: 2rem;
-}
 
-section{
-    padding: 70px 0;
-}
 
 .sub-headline-text{
     font-size: 32px;

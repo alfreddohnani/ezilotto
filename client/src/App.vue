@@ -39,6 +39,12 @@ body {
     margin-bottom: 2rem;
 }
 
+.card {
+    border:none;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 1rem;
+}
+
 section{
     padding: 70px 0;
 }

@@ -12,7 +12,7 @@
           </b-navbar-nav>
 
           <b-navbar-nav class="mx-auto">
-            <b-nav-item href="#">EziCoins</b-nav-item>
+            <router-link :to="{ name:'coins' }" tag="b-nav-item">EzilCoins</router-link>
             <b-nav-item href="#">Results</b-nav-item>
             <b-nav-item href="#">News</b-nav-item>
             <b-nav-item href="#">About</b-nav-item>
